@@ -1,10 +1,10 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
+public class Main{
+    public static void main (String[] args){
+        System.out.println("hello world");
+        System.out.println("this is viswa");
+        System.out.println("Iam from andhra pradesh");
+        Ram r = new Ram();
+        r.ram();
 
-    public static void main(String[] args) {
-        int i=1;
-        System.out.println("helloo how are you");
-        System.out.println(++i);
     }
 }
